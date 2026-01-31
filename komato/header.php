@@ -57,7 +57,7 @@
                                 <span class="heart_icon icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/heart_icon.svg" alt=""></span>
                             </a>
                         </li>
-                        <li class="head_right_cartbox min-width768px">
+                        <li class="head_right_cartbox min-widt768px">
                             <a href="">
                                 <div class="header__link-wrapper">
                                     <span>カート</span>
@@ -104,4 +104,6 @@
                 </div>
             </div>
             </div>
-    <?php if(is_front_page()): ?><header class="top-header"><section class="fv_content"></section></header><?php endif; ?>
+    <?php if(is_front_page()):?>
+        <header class="top-header"><section class="fv_content"></section></header>
+    <?php endif; ?>
